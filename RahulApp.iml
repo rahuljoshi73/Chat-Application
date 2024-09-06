@@ -7,7 +7,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="entityManagerFactory" />
-          <factory-entry name="mayankApp" value="736bc32b-ad4f-4bfd-8f8f-fd96a30fc824" />
+          <factory-entry name="RahulApp" value="736bc32b-ad4f-4bfd-8f8f-fd96a30fc824" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
