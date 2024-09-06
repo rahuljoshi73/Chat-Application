@@ -1,0 +1,38 @@
+body {
+    background-color: #f5f5f5;
+}
+
+#main-content {
+    max-width: 940px;
+    padding: 2em 3em;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#disconnectButton {
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+#disconnectButton::before,
+#disconnectButton::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 2px;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+#disconnectButton::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#disconnectButton::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
